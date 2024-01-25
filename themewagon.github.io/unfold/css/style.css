@@ -121,7 +121,7 @@ a:hover {
 .btn.btn-outline-pill.btn-custom-light:hover,
 .btn.btn-outline-pill.btn-custom-light:active,
 .btn.btn-outline-pill.btn-custom-light:focus {
-    border-color: rgb(0, 255, );
+    border-color: rgb(0, 255, 0);
 }
 
 .btn.btn-bg-white--hover:hover {
@@ -188,7 +188,8 @@ a:hover {
 .unslate_co--site-nav .unslate_co--site-logo {
     font-size: 1.7rem;
     color: #fff;
-    font-weight: 700;
+    font-weight: 700
+    
 }
 
 .unslate_co--site-nav .unslate_co--site-logo span {
@@ -1514,7 +1515,7 @@ figure.dotted-bg:before {
 
 .testimonial-v1 .testimonial-author-info .position {
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(25, 0, 255, 1);
 }
 
 .testimonial-slider .owl-stage,
