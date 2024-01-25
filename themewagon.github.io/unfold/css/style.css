@@ -121,7 +121,7 @@ a:hover {
 .btn.btn-outline-pill.btn-custom-light:hover,
 .btn.btn-outline-pill.btn-custom-light:active,
 .btn.btn-outline-pill.btn-custom-light:focus {
-    border-color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, );
 }
 
 .btn.btn-bg-white--hover:hover {
@@ -188,8 +188,7 @@ a:hover {
 .unslate_co--site-nav .unslate_co--site-logo {
     font-size: 1.7rem;
     color: #fff;
-    font-weight: 700
-    
+    font-weight: 700;
 }
 
 .unslate_co--site-nav .unslate_co--site-logo span {
