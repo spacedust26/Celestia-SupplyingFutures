@@ -1448,7 +1448,7 @@ figure.dotted-bg:before {
     font-size: 69px;
     font-weight: 900;
     font-family: "Arimo", sans-serif;
-    color: #D63447;
+    color: #d91dff;
 }
 
 .counter-v1 .number-wrap .append-text {
@@ -2208,7 +2208,7 @@ span.error {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(45deg, #1e0036, #62027f);
+    background-image: linear-gradient(to bottom right, #320350, #850d76);
     margin-left: -100%;
     z-index: 2;
 }
@@ -2237,7 +2237,7 @@ span.error {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(45deg, #1e0036, #62027f);
+    background-image: linear-gradient(to bottom right, #320350, #850d76);
     margin-left: -100%;
     z-index: 9;
 }
