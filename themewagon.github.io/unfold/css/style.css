@@ -113,7 +113,7 @@ a:hover {
 
 .btn.btn-outline-pill.btn-custom-light {
     color: #fff;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 3px solid rgba(255, 255, 255, 0.5);
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
@@ -122,7 +122,7 @@ a:hover {
 .btn.btn-outline-pill.btn-custom-light:hover,
 .btn.btn-outline-pill.btn-custom-light:active,
 .btn.btn-outline-pill.btn-custom-light:focus {
-    border-color: #fff;
+    border-color:#850d76;
 }
 
 .btn.btn-bg-white--hover:hover {
@@ -1479,8 +1479,8 @@ figure.dotted-bg:before {
     line-height: 40px;
     position: relative;
     z-index: 1;
-    -webkit-box-shadow: 0px 30px 0 -20px #d63447;
-    box-shadow: 0px 30px 0 -20px #d63447;
+    -webkit-box-shadow: 0px 30px 0 -20px linear-gradient(45deg, #1e0036, #62027f);
+    box-shadow: 0px 30px 0 -20px #850d76;
 }
 
 @media (max-width: 991.98px) {
