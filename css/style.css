@@ -2240,7 +2240,7 @@ span.error {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, rgba(50, 3, 80, 0.8), rgba(133, 13, 118, 0.8));
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(164, 79, 153, 0.8));
     margin-left: -100%;
     z-index: 9;
 }

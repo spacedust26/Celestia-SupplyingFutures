@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle at center, rgb(151, 2, 162), rgba(49, 0, 71, 1), rgb(0, 0, 0));
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  margin: 50px auto;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  text-shadow: 2px 2px 4px #f86fff;
+  font-size: 2rem;
+}
+
+.outer-box {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  margin: 50px auto;
+  padding: 50px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(224, 88, 251, 0.2);
+}
+
+.each {
+  color: white;
+  font-size: 1.2rem;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.each-items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .outer-box {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin: 30px auto; /* Adjust margin for better spacing */
+  }
+
+  .each {
+    flex-direction: column;
+    gap: 15px; /* Adjust gap between elements */
+  }
+
+  input[type="text"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select {
+    width: 100%; /* Set input fields to full width */
+  }
+
+  input[type="submit"] {
+    padding: 8px 16px; /* Reduce padding for button */
+    font-size: 1rem; /* Adjust font size for button */
+  }
+}
+
+label {
+  color: rgb(255, 129, 255);
+  font-size: larger;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  padding: 10px;
+  border: 2px solid rgb(255, 129, 255);
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 60%;
+  box-sizing: border-box;
+  color: black;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(255, 129, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.submit-message {
+  color: white;
+}

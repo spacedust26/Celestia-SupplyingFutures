@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supply Form</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+  <header>
+    <h2 class="heading">Supply Form</h2>
+  </header>
+  <div class="outer-box">
+    <div class="food">
+      <form action="">
+
+        <div class="each">
+          <label for="name">Name : </label>
+          <input type="text" name="myName" id="name" placeholder="Enter name here">
+        </div>
+
+        <div class="each">
+          <label for="add">Address : </label>
+          <input type="text" name="myAddress" id="add" placeholder="Enter 4 string Eldorian address assigned">
+        </div>
+
+        <div class="each">
+          <label for="lab-id1">Food Package Size : </label>
+          <div class="each-items">
+            <input type="checkbox" name="food" id="lab-id1">
+            Small
+            <input type="checkbox" name="food">
+            Regular
+            <input type="checkbox" name="food">
+            Large
+          </div>
+        </div>
+
+        <div class="each">
+          <label for="med">Medicine:  </label>
+          <div class="each-items">
+            <select name="d1" id="med">
+              <option value="val0">None</option>
+              <option value="val1">Fever</option>
+              <option value="val2">Cold</option>
+              <option value="val3">Cough</option>
+              <option value="val4">Headache</option>
+              <option value="val5">Rashes</option>
+              <option value="val6">Skin burn</option>
+              <option value="val7">Stomach issues</option>
+              <option value="val8">External injuries</option>
+              <option value="val9">ENT treatment</option>
+              <option value="val10">Pregnancy</option>
+              <option value="val11">Diarrhea</option>
+              <option value="val12">Menstrual issues</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="each">
+          <label for="lab-id2">Select quaratine zone : </label>
+          <div class="each-items">
+            <div class="each-items-item"></div>
+            <input type="radio" name="q1">
+            Zone EL01
+            <input type="radio" name="q1">
+            Zone EL02
+            <input type="radio" name="q1">
+            Zone EL03
+          </div>
+        </div>
+
+        <div class="each">
+          <input type="submit" value="Submit Now">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/form.js"></script>
+</body>
+
+</html>
